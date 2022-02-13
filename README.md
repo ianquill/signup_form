@@ -1,2 +1,2 @@
-This is a simple signup form built to learn SASS.
+This is a simple signup form built with html and CSS.
 

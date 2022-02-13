@@ -1,0 +1,44 @@
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    height: 100%;
+}
+
+.background {
+    width: 50%;
+    height: 100%;
+    background-image: url('./assets/bg.jpg');
+    background-size: contain;
+}
+
+.main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    padding: 10px;
+}
+
+.form-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-label {
+    font-size: 12px;
+}
+
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 70%;
+}
